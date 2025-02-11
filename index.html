@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lemonade Paradise</title>
+    <style>
+        
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body, h1, p, ul {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        
+        body {
+            background-color: yellow;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        
+        header {
+            background-color: #ffcc00;
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            color: #fff;
+            font-size: 40px;
+        }
+
+        
+        nav {
+            background-color: #ffcc00;
+            width: 100%;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav li {
+            margin: 0 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: yellow;
+            font-size: 18px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #ff9900;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        
+        .lemonade-menu {
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            width: 80%;
+            max-width: 800px;
+        }
+
+        .lemonade-item {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .lemonade-item img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .lemonade-item h3 {
+            font-size: 22px;
+            color: #ffcc00;
+        }
+
+        .lemonade-item p {
+            font-size: 16px;
+            color: #666;
+        }
+
+        .lemonade-item .price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #ff9900;
+        }
+
+        
+        footer {
+            background-color: #ffcc00;
+            width: 100%;
+            text-align: center;
+            padding: 15px;
+            margin-top: 50px;
+        }
+
+        footer p {
+            color: #fff;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    
+    <header>
+        <h1>Lemonade Paradise</h1>
+    </header>
+    
+    <nav>
+        <ul>
+
+            <li><a href="#bottom">Home</a></li>
+            <li><a target="_blank" href="about.html">About</a></li>
+
+        </ul>
+    </nav>
+
+    
+    <section class="lemonade-menu">
+        <div class="lemonade-item">
+            <img src="c:\Users\CJB\Pictures\classic.jpg" alt="Classic Lemonade">
+            <h3>Classic Lemonade</h3>
+            <p>A refreshing classic lemonade with a tangy twist!</p>
+            <div class="price">$4.99</div>
+        </div>
+        <div class="lemonade-item">
+            <img src="c:\Users\CJB\Pictures\strawberry.jpg" alt="Strawberry Lemonade">
+            <h3>Strawberry Lemonade</h3>
+            <p>A sweet blend of strawberries and lemon, perfect for a summer day!</p>
+            <div class="price">$5.49</div>
+        </div>
+        <div class="lemonade-item">
+            <img src="c:\Users\CJB\Pictures\mango.jpg" alt="Mango Lemonade">
+            <h3>Mango Lemonade</h3>
+            <p>Exotic and tropical, a mix of mango and fresh lemonade.</p>
+            <div class="price">$5.99</div>
+        </div>
+        <div class="lemonade-item">
+            <img src="c:\Users\CJB\Pictures\lavender.jpg" alt="Lavender Lemonade">
+            <h3>Lavender Lemonade</h3>
+            <p>Infused with calming lavender for a soothing twist on lemonade.</p>
+            <div class="price">$6.49</div>
+        </div>
+    </section>
+
+    
+    <footer id="bottom">
+        <p> Group 4 ICT.This is our first html website </p>
+    </footer>
+    
+    </body>
+
+    
+
+
+</html>
